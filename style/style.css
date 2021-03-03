@@ -278,6 +278,18 @@ article.promise .img-col-3 {
 }
 
 
+/* help button */
+#help-button {
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+
+    border-radius: 5px 5px 0 0;
+
+    z-index: 10;
+}
+
+
 /* footer */
 footer {
     padding: 60px;
