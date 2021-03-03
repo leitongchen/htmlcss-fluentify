@@ -44,9 +44,8 @@ html {
 
 /* classi comuni */
 .wrapper {
-    width: 1200px;
+    width: 80%;
     margin: auto;
-    height: 100%;
 
     background-color: hotpink;
 }
