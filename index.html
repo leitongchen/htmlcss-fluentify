@@ -104,10 +104,23 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="bg-gray">
         <div class="wrapper clearfix">
-            <div class="f-left col-2 h-100 border"></div>
-            <div class="f-left col-2 h-100 border"></div>
+            <div class="f-left col-2 col-sx">
+                <h3>Struttura un piano</h3>
+            </div>
+            <div class="t-gray f-left col-2 col-dx">
+                <label for="professione">Sono</label>
+                <select id="professione">
+                <option value="">Seleziona</option>
+                <option value="studente">Studente</option>
+                <option value="associazione">Associazione</option>
+                <option value="azienda">Azienda</option>
+                <option value="libero professionista">Libero professionista</option>
+                </select>
+
+                <button class="btn big-btn green-btn">Visualizza il tuo piano</button>
+            </div>
         </div>
     </footer>
 </body>

@@ -14,7 +14,8 @@ section h4 {
     font-size: 1.5rem;
     font-weight: 500;
 }
-section h3 {
+section h3,
+footer h3 {
     font-size: 2rem;
     font-weight: 500;
 }
@@ -278,3 +279,29 @@ article.promise .img-col-3 {
 
 
 /* footer */
+footer {
+    padding: 60px;
+}
+
+footer .col-dx {
+    text-align: right;
+}
+
+footer h3 {
+    line-height: 55px;
+}
+
+footer select {
+    /* appearance: none; */
+    background-color: transparent;
+    color: rgb(116, 116, 116);
+
+    border: none;
+    border-bottom: 1px solid rgb(116, 116, 116);
+
+    padding: 5px;
+    margin: 0 20px;
+
+    font-family: inherit;
+    font-size: inherit;
+}
