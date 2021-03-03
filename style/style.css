@@ -7,52 +7,7 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
-section p {
-    font-size: 1rem;
-}
-section h4 {
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-section h3,
-footer h3 {
-    font-size: 2rem;
-    font-weight: 500;
-}
 
-
-/* utility classes  */
-
-.border {
-    border: 2px solid black;
-}
-.h-50 {
-    height: 50px;
-}
-.h-80 {
-    height: 80px;
-}
-.h-100 {
-    height: 100px;
-}
-.h-200 {
-    height: 200px;
-}
-.h-300 {
-    height: 300px;
-}
-.h-400 {
-    height: 400px;
-}
-.h-500 {
-    height: 500px;
-}
-.h-600 {
-    height: 600px;
-}
-.h-700 {
-    height: 700px;
-}
 
 
 /* classi comuni */
@@ -60,8 +15,6 @@ footer h3 {
     width: 80%;
     min-width: 1000px;
     margin: auto;
-
-    /* background-color: hotpink; */
 }
 
 .f-left {
@@ -76,6 +29,7 @@ footer h3 {
     clear: both;
 }
 
+/* sezione a più colonne - da usare insieme a float */
 .col-3 {
     width: 33.3%;
 }
@@ -83,6 +37,21 @@ footer h3 {
     width: 50%;
 }
 
+/* formattazione testi section e footer */
+section p {
+    font-size: 1rem;
+}
+section h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+section h3,
+footer h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* colori dei testi */
 .t-green {
     color: rgb(96, 184, 62);
 }
@@ -105,6 +74,7 @@ footer h3 {
     color: rgb(96, 184, 62);
 }
 
+/* colori di background */
 .bg-gray {
     background-color: rgb(187, 187, 187);
 }
@@ -259,6 +229,7 @@ article.promise .img-col-3 {
     margin-top: 30px;
 }
 
+
 /* sezione english test - 2 colonne */
 #english-test {
     padding: 50px;
@@ -317,3 +288,36 @@ footer select {
     font-family: inherit;
     font-size: inherit;
 }
+
+
+/* utility classes  */
+/* .border {
+    border: 2px solid black;
+}
+.h-50 {
+    height: 50px;
+}
+.h-80 {
+    height: 80px;
+}
+.h-100 {
+    height: 100px;
+}
+.h-200 {
+    height: 200px;
+}
+.h-300 {
+    height: 300px;
+}
+.h-400 {
+    height: 400px;
+}
+.h-500 {
+    height: 500px;
+}
+.h-600 {
+    height: 600px;
+}
+.h-700 {
+    height: 700px;
+} */
